@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer login</title>
+    <link href="./assets/css/register.css" rel="stylesheet" type="text/css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="register.php"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="background" id="backimg">
+            <div class="navbar" id="navi">
+                <div class="icon" id="logo">
+                    <h2 class="logo">EMS</h2>
+                </div>
+                <div class="menu" id="nav"> 
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="order.php">venue</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form" id="login">
+                <form action="register.php" method="post">
+                    <h1>Welcome to <p>EMS</p></h1>
+                    <input type="Name" name="ctr_name" placeholder="Enter name" required>
+                    <input type="Address" name="ctr_add" placeholder="Enter address" required>
+                    <input type="tel" name="ctr_mob" placeholder="Enter mobile no." pattern="[0-9]{10}" class="form-control" title="number must be 10 characters long" required>
+                    <input type="email" name="ctr_email" placeholder="Enter email" required>
+                    <input type="password" name="ctr_pass" placeholder="Enter password" pattern=".{8}" title="Password must be 8 characters long" required>
+
+                    <button class="btnn" name="submit">Login</button>
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+    
+    
